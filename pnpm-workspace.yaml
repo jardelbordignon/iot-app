@@ -1,3 +1,6 @@
 packages:
   - "apps/*"
+  - "configs/*"
   - "packages/*"
+allowBuilds:
+  '@swc/core': false
